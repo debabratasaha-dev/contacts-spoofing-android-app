@@ -1,11 +1,11 @@
-# Contact Spoofing App (casual project)
+# Basic Contact Spoofing App
 
 **Short note:** This is a small, casual Android + Flask practice purpose project — built for learning and demo purposes only. Use responsibly: get user consent before reading/sending contacts.
 
 ---
 
 # Demo
-<center><video src="demo.mp4" controls width="600"></video></center>
+![Demo](Demo.gif)
 
 ---
 # What it is
@@ -19,7 +19,6 @@ A simple end-to-end demo that:
 
 # Features
 - Fetch contacts from device (handles runtime permissions)
-- Normalize/dedupe phone numbers (avoid duplicates from WhatsApp/other accounts)
 - RecyclerView list with search (live, per keystroke)
 - Send contacts to server (Retrofit + Gson)
 - Flask backend storing contacts in SQLite
